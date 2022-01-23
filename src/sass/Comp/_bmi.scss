@@ -1,0 +1,82 @@
+.bmi {
+  margin: 0 auto;
+  transform: translateY(-15rem);
+  padding: 2rem 0 2rem 0;
+  width: 30%;
+  height: 110%;
+  font-size: 2rem;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary-light, 0.85),
+    rgba($color-primary-dark, 0.85)
+  );
+
+  .form {
+    width: 100%;
+    height: 50%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: $color-white;
+
+    &__group {
+      font-size: inherit;
+      &:not(:last-child) {
+        padding-bottom: 3rem;
+      }
+    }
+
+    &__input {
+      font-size: 1.5rem;
+      padding: 1.5rem 2rem;
+      border-radius: 2px;
+      border: none;
+      background-color: rgba($color-white, 0.9);
+      outline: none;
+    }
+
+    .btn {
+      display: block;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 1.5rem 4rem;
+      display: block;
+      left: 50%;
+      transform: translateX(-30%);
+      margin-top: 3rem;
+      border: none;
+      border-radius: 1rem;
+      transform: all 0.2s;
+      position: relative;
+      font-size: $default-font-size;
+      cursor: pointer;
+
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+      transition: all 0.3s ease-out;
+    }
+  }
+
+  .textGroup {
+    padding-top: 6rem;
+
+    .result {
+      font-family: inherit;
+      &:not(:last-child) {
+        padding-bottom: 3rem;
+      }
+
+      .result-bmi {
+        display: inline-block;
+        width: 35%;
+        margin-left: 5px;
+        background-color: rgba($color-white, 0.9);
+      }
+
+      .result-status {
+        display: inline-block;
+        width: 55%;
+        margin-left: 5px;
+        background-color: rgba($color-white, 0.9);
+      }
+    }
+  }
+}

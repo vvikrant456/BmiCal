@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.primary-heading {
+  font-size: 3rem;
+  text-transform: uppercase;
+  position: relative;
+  margin: 0 auto;
+  transform: translateY(-15rem);
+  padding: 2rem 0 2rem 0;
+  width: 30%;
+  background-color: #b4e3f1;
+  border-radius: 3px;
+  color: #33337a; }
+
+.container {
+  height: 100vh;
+  width: 100%;
+  padding: 20rem 0 15rem 0;
+  background-color: #ecf6f9;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
+
+.bmi {
+  margin: 0 auto;
+  transform: translateY(-15rem);
+  padding: 2rem 0 2rem 0;
+  width: 30%;
+  height: 110%;
+  font-size: 2rem;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
+  .bmi .form {
+    width: 100%;
+    height: 50%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: white; }
+    .bmi .form__group {
+      font-size: inherit; }
+      .bmi .form__group:not(:last-child) {
+        padding-bottom: 3rem; }
+    .bmi .form__input {
+      font-size: 1.5rem;
+      padding: 1.5rem 2rem;
+      border-radius: 2px;
+      border: none;
+      background-color: rgba(255, 255, 255, 0.9);
+      outline: none; }
+    .bmi .form .btn {
+      display: block;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 1.5rem 4rem;
+      display: block;
+      left: 50%;
+      transform: translateX(-30%);
+      margin-top: 3rem;
+      border: none;
+      border-radius: 1rem;
+      transform: all 0.2s;
+      position: relative;
+      font-size: 1.6rem;
+      cursor: pointer;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease-out; }
+  .bmi .textGroup {
+    padding-top: 6rem; }
+    .bmi .textGroup .result {
+      font-family: inherit; }
+      .bmi .textGroup .result:not(:last-child) {
+        padding-bottom: 3rem; }
+      .bmi .textGroup .result .result-bmi {
+        display: inline-block;
+        width: 35%;
+        margin-left: 5px;
+        background-color: rgba(255, 255, 255, 0.9); }
+      .bmi .textGroup .result .result-status {
+        display: inline-block;
+        width: 55%;
+        margin-left: 5px;
+        background-color: rgba(255, 255, 255, 0.9); }
